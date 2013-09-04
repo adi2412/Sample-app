@@ -37,7 +37,7 @@ gem 'jquery-rails'
 
 
 group :doc do
-	gem 'sdoc', '0.3.20'
+	gem 'sdoc', '0.3.20', require: false
 end
 
 group :production do
